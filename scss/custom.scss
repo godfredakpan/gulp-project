@@ -1,0 +1,65 @@
+body {
+	// font-family: 'Roboto', sans-serif;
+	// background-color: #f3f3f3 !important;
+}
+
+a {
+	cursor: pointer;
+}
+
+$theme-colors: (
+  'primary': #c2185b,
+  'danger': #ff4136,
+  'custom-color': #f3f3f3
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/material-design-iconic-font/scss/material-design-iconic-font';
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+// @import 'vendors/bootstrap-material-design/bootstrap-material-design';
+@import 'modules/section';
+@import 'modules/fonts';
+@import 'modules/colors';
+@import 'modules/forms';
+@import 'modules/modals';
+
+@import 'components/navbar';
+@import 'components/sidebar';
+
+.content__title {
+	margin-bottom: 2rem;
+    padding: 1rem 0 0;
+    position: relative;
+
+    h1 {
+    	line-height: 100%;
+	    font-weight: normal;
+	    font-size: 1.15rem;
+	    margin: 0;
+	    text-transform: uppercase;
+	    color: #676767;
+    }
+
+    small {
+    	font-size: 1rem;
+	    display: block;
+	    margin-top: 0.8rem;
+	    color: #959595;
+    }
+
+    .actions {
+	    position: absolute;
+	    top: 0.3rem;
+	    right: 1rem;
+	}
+}
+
+@import 'pages/dashboard';
+@import 'pages/club';
+@import 'pages/about__app';
+
+@import 'pages/public';
+@import 'pages/about';
+@import 'pages/setup';

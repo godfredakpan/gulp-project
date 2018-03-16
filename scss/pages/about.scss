@@ -1,0 +1,30 @@
+.headline {
+	min-height: 100vh;
+	background: url('/images/about/headline.png');
+
+	&__title {
+		padding-top: 17rem;
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 5em;
+		color: #FFFFFF;
+	}
+
+	&__subtitle {
+		color: #FFFFFF;
+	}
+}
+
+.information {
+	margin-top: 4rem;
+
+	&__title {
+		margin-bottom: 2rem;
+	}
+
+	&__details {
+		line-height: 2.5rem;
+	}
+}

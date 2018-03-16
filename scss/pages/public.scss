@@ -1,0 +1,179 @@
+.fullpage {
+	min-height: 100vh;
+	background: url('/images/home/home.png');
+	.page {
+		margin-top: 10rem;
+		&__title {
+			min-height: 10rem;
+			max-width: 30rem;
+			word-wrap: break-word;
+			h2 {
+				font-size: 3rem;
+				color: #FFFFFF;
+				font-weight: 900;
+			}
+		}
+
+		&__subheading {
+			color: #FFFFFF;
+			font-size: 1rem;
+			font-weight: 600;
+			line-height: 2rem;
+		}
+
+		button {
+			margin-top: 2rem;
+		}
+	}
+	.card {
+		margin-top: 6rem;
+	}
+
+	.h_p {
+		color: #FFFFFF;
+	}
+}
+
+.app {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	.col-lg-5 {
+		padding-top: 5rem;
+	}
+
+	&__title {
+		font-weight: 900;
+		line-height: 5rem;
+	}
+
+	&__subheading {
+		font-weight: 500;
+		line-height: 2rem;
+	}
+}
+
+.features {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: $light-grey;
+	.row {
+		margin-top: 4rem;
+			button {
+				margin-bottom: 2rem;
+			}
+	}
+	.tab-content {
+		.container {
+			margin-top: 4rem;
+
+			.tab__title {
+				font-weight: 900;
+				line-height: 5rem;
+			}
+
+			.tab__content {
+				line-height: 2rem;
+
+			}
+		}
+	}
+}
+
+.how-it-works {
+	margin-top: 4rem;
+	.row {
+		marging-top: 4rem;
+	}
+	&__title {
+
+	}
+
+	&__content {
+		font-weight: 500;
+		line-height: 1.5rem
+
+		span {
+			color: $primary;
+		}
+	}
+
+	.col-lg-6 {
+		.how-it-works__content {
+			margin-top: 2.5rem
+		}
+	}
+}
+
+.areas {
+	margin-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: $light-grey;
+	.container {
+		padding-top: 4rem;
+	}
+	.row {
+		margin-top: 4rem;
+	}
+	.card__img {
+		min-height: 40px;
+	}
+
+	.card__content {
+		padding: 1rem 1rem 0 1rem;
+	}
+}
+
+footer {
+	margin-top: 4rem;
+	.container {
+		img {
+			margin-top: 4rem;
+		}
+	}
+
+	ul {
+		list-style: none;
+		li {
+			line-height: 4rem;
+			a {
+				text-decoration: none;
+				color: #000;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.list-inline {
+		padding-left: 2.5rem;
+		letter-spacing: 0.3rem;
+		a {
+			text-decoration: none;
+		}
+	// 	display: inline-block;
+	}
+}
+
+@media (max-width: 990px) {
+	.fullpage {
+		.card, .h_p {
+			display: none;
+		}
+
+		.page {
+			margin-top: 5rem;
+
+			button {
+				margin-top: 0rem;
+			}
+		}
+
+		.page__title {
+			max-width: 20rem;
+			h2 {
+				font-size: 2.5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/styles/custom.css">
+
+    <title>Dealin Club!</title>
+  </head>
+  <body>
+  	<header class="navbar fixed-top header navbar-light bg-primary">
+  		<div class="navbar--trigger">
+  			<div class="navbar--trigger__inner">
+  				<i class="navbar--trigger__line"></i>
+  				<i class="navbar--trigger__line"></i>
+  				<i class="navbar--trigger__line"></i>
+  			</div>
+  		</div>
+  		<div class="header__logo">
+  			<h1>
+  				<a href="#">Dealin APP</a>
+  			</h1>
+  		</div>
+		<div class="search-box">
+			<div class="search">
+				<input type="text" class="search__text" placeholder="Search for people, files and documents">
+				<i class="zmdi zmdi-search search__helper"></i>
+			</div>
+		</div>
+
+		<ul class="top">
+			<li>
+				<a href="javascript:void(0)">
+					<i class="zmdi zmdi-search"></i>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenu">
+					<i class="zmdi zmdi-notifications"></i>
+				</a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-menu__block" role="menu"  aria-labelledby="dropdownMenu">
+          <div class="listview listview__hover">
+            <div class="listview listview__header">
+              Notifications
+            </div>
+            <a href="javascript:void(0);" class="listview__item">
+              <img src="images/team3.jpg" alt="" class="listview__img">
+              <div class="listview__content">
+                <h3 class="listview__heading">
+                  Hello
+                  <small>Example App</small>
+                </h3>
+                <p>Lorem ipsum dolor sit amet...</p>
+              </div>
+            </a>
+            <a href="#" class="view-more">See All</a>
+          </div>
+        </div>
+			</li>
+			<li>
+				<a href="javascript:void(0);" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMessageMenu">
+					<i class="zmdi zmdi-email"></i>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu__block" role="menu"  aria-labelledby="dropdownMessageMenu">
+          <div class="listview listview__hover">
+            <div class="listview listview__header">
+              Conversations
+            </div>
+            <a href="javascript:void(0);" class="listview__item">
+              <img src="images/team3.jpg" alt="" class="listview__img">
+              <div class="listview__content">
+                <h3 class="listview__heading">
+                  Hello
+                  <small>Example App</small>
+                </h3>
+                <p>Lorem ipsum dolor sit amet...</p>
+              </div>
+            </a>
+            <a href="#" class="view-more">See All</a>
+          </div>
+        </div>
+				</a>
+			</li>
+			<li>
+			<li>
+				<a href="#">
+					<img src="/images/team3.jpg" alt="" class="user__img">
+				</a>
+			</li>
+		</ul>
+  	</header>
+
+<!-- Sidebar begins here -->
+    <aside class="sidebar">
+      <div class="business">
+        <div class="business__info">
+          <img src="/images/team3.jpg" alt="" class="business__img">
+          <div>
+            <div class="business__name">Dealin</div>
+            <div class="business__email">dealin@shareqube.com</div>
+          </div>
+        </div>
+      </div>
+      <ul class="navigation">
+        <li class="navigation__active">
+          <a href="/">
+            <i class="zmdi zmdi-home"></i>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="/club.html">
+            <i class="zmdi zmdi-group-work"></i>
+            Clubs
+          </a>
+          <li>
+          <li>
+            <a href="/customers.html">
+              <i class="zmdi zmdi-accounts-alt"></i>
+              Customers
+            </a>
+          <li>
+            <a href="/deal.html">
+              <i class="zmdi zmdi-money"></i>
+              Deals
+            </a>
+          </li>
+        </li>
+        <li>
+          <a href="/reward.html">
+            <i class="zmdi zmdi-money"></i>
+            Rewards
+          </a>
+        </li>
+        <li>
+          <a href="/analytics.html">
+            <i class="zmdi zmdi-trending-up"></i>
+            Analytics
+          </a>
+        </li>
+        <li>
+          <a href="/analytics.html">
+            <i class="zmdi zmdi-shield-check"></i>
+            Token Management
+          </a>
+        </li>
+        <li>
+          <a href="/analytics.html">
+            <i class="zmdi zmdi-notifications-active"></i>
+            Notifications
+          </a>
+        </li>
+      </ul>
+    </aside>
+<!-- Sidebar ends here -->
+  	<section class="content">
+  		<header class="content__title">
+  			<h1>Your Rewards</h1>
+  			<small>Manage your rewards with ease.</small>
+        <div class="actions">
+          <a href="#" class="actions__item">Select Reward</a>
+        </div>
+  		</header>
+      <div class="row stats">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="stats__item bg-silver">
+            <div class="stats__info">
+              <h2>0</h2>
+              <small>Silver Members</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="stats__item bg-gold">
+            <div class="stats__info">
+              <h2>0</h2>
+              <small>Gold Members</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="stats__item bg-platinum">
+            <div class="stats__info">
+              <h2>0</h2>
+              <small>Platinum Members</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="table-responsive">
+                <div class="text-right">
+                  <button class="btn btn-primary btn-md">Add New Reward</button>
+                </div>
+                <table id="example" width="100%" class="display">
+                  <thead>
+                      <tr>
+                          <th>Name</th>
+                          <th>Position</th>
+                          <th>Office</th>
+                          <th>Age</th>
+                          <th>Start date</th>
+                          <th>Salary</th>
+                      </tr>
+                  </thead>
+                  <tfoot>
+                      <tr>
+                          <th>Name</th>
+                          <th>Position</th>
+                          <th>Office</th>
+                          <th>Age</th>
+                          <th>Start date</th>
+                          <th>Salary</th>
+                      </tr>
+                  </tfoot>
+                  <tbody>
+                      <tr>
+                          <td>Tiger Nixon</td>
+                          <td>System Architect</td>
+                          <td>Edinburgh</td>
+                          <td>61</td>
+                          <td>2011/04/25</td>
+                          <td>$320,800</td>
+                      </tr>
+                      <tr>
+                          <td>Garrett Winters</td>
+                          <td>Accountant</td>
+                          <td>Tokyo</td>
+                          <td>63</td>
+                          <td>2011/07/25</td>
+                          <td>$170,750</td>
+                      </tr>
+                      <tr>
+                          <td>Ashton Cox</td>
+                          <td>Junior Technical Author</td>
+                          <td>San Francisco</td>
+                          <td>66</td>
+                          <td>2009/01/12</td>
+                          <td>$86,000</td>
+                      </tr>
+                      <tr>
+                          <td>Cedric Kelly</td>
+                          <td>Senior Javascript Developer</td>
+                          <td>Edinburgh</td>
+                          <td>22</td>
+                          <td>2012/03/29</td>
+                          <td>$433,060</td>
+                      </tr>
+                      <tr>
+                          <td>Airi Satou</td>
+                          <td>Accountant</td>
+                          <td>Tokyo</td>
+                          <td>33</td>
+                          <td>2008/11/28</td>
+                          <td>$162,700</td>
+                      </tr>
+                      <tr>
+                          <td>Brielle Williamson</td>
+                          <td>Integration Specialist</td>
+                          <td>New York</td>
+                          <td>61</td>
+                          <td>2012/12/02</td>
+                          <td>$372,000</td>
+                      </tr>
+                      <tr>
+                          <td>Herrod Chandler</td>
+                          <td>Sales Assistant</td>
+                          <td>San Francisco</td>
+                          <td>59</td>
+                          <td>2012/08/06</td>
+                          <td>$137,500</td>
+                      </tr>
+                      <tr>
+                          <td>Rhona Davidson</td>
+                          <td>Integration Specialist</td>
+                          <td>Tokyo</td>
+                          <td>55</td>
+                          <td>2010/10/14</td>
+                          <td>$327,900</td>
+                      </tr>
+                      <tr>
+                          <td>Colleen Hurst</td>
+                          <td>Javascript Developer</td>
+                          <td>San Francisco</td>
+                          <td>39</td>
+                          <td>2009/09/15</td>
+                          <td>$205,500</td>
+                      </tr>
+                      <tr>
+                          <td>Sonya Frost</td>
+                          <td>Software Engineer</td>
+                          <td>Edinburgh</td>
+                          <td>23</td>
+                          <td>2008/12/13</td>
+                          <td>$103,600</td>
+                      </tr>
+                      <tr>
+                          <td>Jena Gaines</td>
+                          <td>Office Manager</td>
+                          <td>London</td>
+                          <td>30</td>
+                          <td>2008/12/19</td>
+                          <td>$90,560</td>
+                      </tr>
+                      <tr>
+                          <td>Quinn Flynn</td>
+                          <td>Support Lead</td>
+                          <td>Edinburgh</td>
+                          <td>22</td>
+                          <td>2013/03/03</td>
+                          <td>$342,000</td>
+                      </tr>
+                      <tr>
+                          <td>Charde Marshall</td>
+                          <td>Regional Director</td>
+                          <td>San Francisco</td>
+                          <td>36</td>
+                          <td>2008/10/16</td>
+                          <td>$470,600</td>
+                      </tr>
+                      <tr>
+                          <td>Haley Kennedy</td>
+                          <td>Senior Marketing Designer</td>
+                          <td>London</td>
+                          <td>43</td>
+                          <td>2012/12/18</td>
+                          <td>$313,500</td>
+                      </tr>
+                      <tr>
+                          <td>Tatyana Fitzpatrick</td>
+                          <td>Regional Director</td>
+                          <td>London</td>
+                          <td>19</td>
+                          <td>2010/03/17</td>
+                          <td>$385,750</td>
+                      </tr>
+                      <tr>
+                          <td>Michael Silva</td>
+                          <td>Marketing Designer</td>
+                          <td>London</td>
+                          <td>66</td>
+                          <td>2012/11/27</td>
+                          <td>$198,500</td>
+                      </tr>
+                      <tr>
+                          <td>Paul Byrd</td>
+                          <td>Chief Financial Officer (CFO)</td>
+                          <td>New York</td>
+                          <td>64</td>
+                          <td>2010/06/09</td>
+                          <td>$725,000</td>
+                      </tr>
+                      <tr>
+                          <td>Gloria Little</td>
+                          <td>Systems Administrator</td>
+                          <td>New York</td>
+                          <td>59</td>
+                          <td>2009/04/10</td>
+                          <td>$237,500</td>
+                      </tr>
+                      <tr>
+                          <td>Bradley Greer</td>
+                          <td>Software Engineer</td>
+                          <td>London</td>
+                          <td>41</td>
+                          <td>2012/10/13</td>
+                          <td>$132,000</td>
+                      </tr>
+                      <tr>
+                          <td>Dai Rios</td>
+                          <td>Personnel Lead</td>
+                          <td>Edinburgh</td>
+                          <td>35</td>
+                          <td>2012/09/26</td>
+                          <td>$217,500</td>
+                      </tr>
+                      <tr>
+                          <td>Jenette Caldwell</td>
+                          <td>Development Lead</td>
+                          <td>New York</td>
+                          <td>30</td>
+                          <td>2011/09/03</td>
+                          <td>$345,000</td>
+                      </tr>
+                      <tr>
+                          <td>Yuri Berry</td>
+                          <td>Chief Marketing Officer (CMO)</td>
+                          <td>New York</td>
+                          <td>40</td>
+                          <td>2009/06/25</td>
+                          <td>$675,000</td>
+                      </tr>
+                      <tr>
+                          <td>Caesar Vance</td>
+                          <td>Pre-Sales Support</td>
+                          <td>New York</td>
+                          <td>21</td>
+                          <td>2011/12/12</td>
+                          <td>$106,450</td>
+                      </tr>
+                      <tr>
+                          <td>Doris Wilder</td>
+                          <td>Sales Assistant</td>
+                          <td>Sidney</td>
+                          <td>23</td>
+                          <td>2010/09/20</td>
+                          <td>$85,600</td>
+                      </tr>
+                      <tr>
+                          <td>Angelica Ramos</td>
+                          <td>Chief Executive Officer (CEO)</td>
+                          <td>London</td>
+                          <td>47</td>
+                          <td>2009/10/09</td>
+                          <td>$1,200,000</td>
+                      </tr>
+                      <tr>
+                          <td>Gavin Joyce</td>
+                          <td>Developer</td>
+                          <td>Edinburgh</td>
+                          <td>42</td>
+                          <td>2010/12/22</td>
+                          <td>$92,575</td>
+                      </tr>
+                      <tr>
+                          <td>Jennifer Chang</td>
+                          <td>Regional Director</td>
+                          <td>Singapore</td>
+                          <td>28</td>
+                          <td>2010/11/14</td>
+                          <td>$357,650</td>
+                      </tr>
+                      <tr>
+                          <td>Brenden Wagner</td>
+                          <td>Software Engineer</td>
+                          <td>San Francisco</td>
+                          <td>28</td>
+                          <td>2011/06/07</td>
+                          <td>$206,850</td>
+                      </tr>
+                      <tr>
+                          <td>Fiona Green</td>
+                          <td>Chief Operating Officer (COO)</td>
+                          <td>San Francisco</td>
+                          <td>48</td>
+                          <td>2010/03/11</td>
+                          <td>$850,000</td>
+                      </tr>
+                      <tr>
+                          <td>Shou Itou</td>
+                          <td>Regional Marketing</td>
+                          <td>Tokyo</td>
+                          <td>20</td>
+                          <td>2011/08/14</td>
+                          <td>$163,000</td>
+                      </tr>
+                      <tr>
+                          <td>Michelle House</td>
+                          <td>Integration Specialist</td>
+                          <td>Sidney</td>
+                          <td>37</td>
+                          <td>2011/06/02</td>
+                          <td>$95,400</td>
+                      </tr>
+                      <tr>
+                          <td>Suki Burks</td>
+                          <td>Developer</td>
+                          <td>London</td>
+                          <td>53</td>
+                          <td>2009/10/22</td>
+                          <td>$114,500</td>
+                      </tr>
+                      <tr>
+                          <td>Prescott Bartlett</td>
+                          <td>Technical Author</td>
+                          <td>London</td>
+                          <td>27</td>
+                          <td>2011/05/07</td>
+                          <td>$145,000</td>
+                      </tr>
+                      <tr>
+                          <td>Gavin Cortez</td>
+                          <td>Team Leader</td>
+                          <td>San Francisco</td>
+                          <td>22</td>
+                          <td>2008/10/26</td>
+                          <td>$235,500</td>
+                      </tr>
+                  </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+        </div>
+  	</section>
+
+  	<!-- Page Loader Begins here -->
+  	<!-- <div class="page-loader page-loader--inner">
+	  <div class="page-loader__spinner">
+	    <svg viewBox="25 25 50 50">
+	      <circle cx="50" cy="50" fill="none" r="20" stroke-miterlimit="10" stroke-width="2"></circle>
+	    </svg>
+	  </div>
+	</div> -->
+  	<!-- Page Loader Ends here -->
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- DataTables -->
+    <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="/scripts/custom.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('#example').DataTable();
+      });
+    </script>
+  </body>
+</html>
